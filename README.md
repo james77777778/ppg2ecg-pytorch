@@ -12,12 +12,14 @@ Reconstruction Visualization
 ![](doc/imgs/chiu4.png)
 
 ## Dataset
+Download the dataset:
 https://drive.google.com/file/d/15dxbpi4FH7lJbRFZwyREyX4V0VKDxXNs/view?usp=sharing
+And follow the instruction:
 ```bash
 mkdir data
 unzip dataset.zip -d data
 ```
-and you should have following structure
+After that, you should have following data structure:
 ```bash
 data/
 ├── bidmc
@@ -32,11 +34,11 @@ data/
 ```
 
 ## Environment
+You can check it yourself in requirements.txt
 - Ubuntu 18.04
 - python 3.6
 - pytorch 1.2
 ...
-You can check it yourself in requirements.txt
 
 ## Installation
 ```bash
@@ -45,6 +47,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+All the training parameters are included in config files.
 ```bash
 # run UQVIT dataset with full model
 python3 train.py --flagfile config/UQVIT.cfg
@@ -55,9 +58,25 @@ python3 train.py --flagfile config/UQVIT_LSTM.cfg
 # run BIDMC dataset with full model
 python3 train.py --flagfile config/BIDMC.cfg
 ```
-all the training parameters are included in config files.
 
 ## Tensorboard
 ```bash
 tensorboard --logdir logs
+```
+
+## Citation
+If you use this code for your research, please cite our papers.
+```
+@Article{ppg2ecg,
+author={Hong-Yu, Chiu
+and Hong-Han, Shuai
+and Paul C.-P, Chao},
+title={Reconstructing QRS Complex from PPG byTransformed Attentional Neural Networks},
+journal={},
+year={2020},
+month={},
+volume={},
+number={},
+pages={},
+}
 ```
