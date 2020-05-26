@@ -14,11 +14,13 @@ Reconstruction Visualization
 ## Dataset
 Download the dataset:
 https://drive.google.com/file/d/15dxbpi4FH7lJbRFZwyREyX4V0VKDxXNs/view?usp=sharing
+
 And follow the instruction:
 ```bash
 mkdir data
 unzip dataset.zip -d data
 ```
+
 After that, you should have following data structure:
 ```bash
 data/
