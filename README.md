@@ -70,6 +70,9 @@ python3 train.py --flagfile config/BIDMC.cfg
 ## Test for your own PPG data
 Please see [EXAMPLE.md](doc/imgs/EXAMPLE.md).
 
+Simple result:
+![](doc/imgs/example.png)
+
 ## Tensorboard
 ```bash
 tensorboard --logdir logs
