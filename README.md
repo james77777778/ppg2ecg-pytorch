@@ -8,8 +8,8 @@ Graph Abstract
 Model Architecture
 ![](doc/imgs/chiu2.png)
 
-Reconstruction Visualization
-![](doc/imgs/chiu4.png)
+<!-- Reconstruction Visualization
+![](doc/imgs/chiu4.png) -->
 
 ## Dataset
 Download the dataset:
