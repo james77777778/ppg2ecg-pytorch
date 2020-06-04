@@ -5,6 +5,7 @@ The detail is in `./inference.py`.
 ## Run
 Download the pretrained weights from UQVIT dataset.
 Put it in `./weights`.
+
 https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
 
 ```bash
@@ -24,4 +25,5 @@ For example, if we have a PPG data which has the length of 500, we should infere
 
 ## Result
 Simple result from ./example/PPG.npy
+
 ![](example.png)

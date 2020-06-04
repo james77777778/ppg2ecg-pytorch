@@ -13,6 +13,7 @@ Model Architecture
 
 ## Dataset
 Download the dataset:
+
 https://drive.google.com/file/d/15dxbpi4FH7lJbRFZwyREyX4V0VKDxXNs/view?usp=sharing
 
 And follow the instruction:
@@ -37,6 +38,7 @@ data/
 
 ## Pretrained Model (UQVIT)
 Download the model weights and usually we put it in `./weights`.
+
 https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
 
 ## Environment
