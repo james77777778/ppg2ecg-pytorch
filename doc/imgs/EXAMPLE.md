@@ -1,6 +1,6 @@
 # Example
 It is a small example to show how to transfer ECG from PPG with a pretrained model.
-The detail is in `./inference.py`.
+The detail is in [inference.py](../../inference.py).
 
 ## Run
 Download the pretrained weights from UQVIT dataset.
@@ -9,7 +9,7 @@ Put it in `./weights`.
 https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
 
 ```bash
-python3 inference.py --weights weights/model_best.pth
+python3 inference.py --weights weights/model_best.pth --input example/PPG.npy
 ```
 
 ## Prepare your own PPG data

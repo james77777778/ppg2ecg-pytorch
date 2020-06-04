@@ -8,6 +8,7 @@ from modules.models import PPG2ECG
 
 
 flags.DEFINE_string("weights", "", "model weights for inferencing")
+flags.DEFINE_string("input", "example/PPG.npy", "input data (numpy array)")
 FLAGS = flags.FLAGS
 
 
@@ -26,7 +27,7 @@ def main(argv):
     model.eval()
 
     # prepare the inference data (PPG data)
-    ppg = np.load(Path("example", "PPG.npy"))
+    ppg = np.load(Path(FLAGS.input))
     print("ppg shape: {}".format(ppg.shape))
 
     # run through the data
