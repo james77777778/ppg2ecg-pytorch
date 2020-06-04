@@ -71,6 +71,7 @@ python3 train.py --flagfile config/BIDMC.cfg
 Please see [EXAMPLE.md](doc/imgs/EXAMPLE.md).
 
 Simple result:
+
 ![](doc/imgs/example.png)
 
 ## Tensorboard
