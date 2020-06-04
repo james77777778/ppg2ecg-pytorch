@@ -61,6 +61,9 @@ python3 train.py --flagfile config/UQVIT_LSTM.cfg
 python3 train.py --flagfile config/BIDMC.cfg
 ```
 
+## Test for your own PPG data
+Please see [EXAMPLE.md](doc/imgs/EXAMPLE.md).
+
 ## Tensorboard
 ```bash
 tensorboard --logdir logs
