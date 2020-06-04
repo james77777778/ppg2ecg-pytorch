@@ -35,6 +35,10 @@ data/
     └── uqvitalsignsdata-train
 ```
 
+## Pretrained Model (UQVIT)
+Download the model weights and usually we put it in `./weights`.
+https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
+
 ## Environment
 You can check it yourself in requirements.txt
 - Ubuntu 18.04

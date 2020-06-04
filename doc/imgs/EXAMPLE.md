@@ -2,6 +2,15 @@
 It is a small example to show how to transfer ECG from PPG with a pretrained model.
 The detail is in `./inference.py`.
 
+## Run
+Download the pretrained weights from UQVIT dataset.
+Put it in `./weights`.
+https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
+
+```bash
+python3 infernece.py --weights weights/model_best.pth
+```
+
 ## Prepare your own PPG data
 You need to preprocess your data before feeding in the model.
 1. The input size should be [1, 200] (1 representing the feature dimension and 200 means 2 seconds with sampling rate 100Hz)
