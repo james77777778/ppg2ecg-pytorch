@@ -9,7 +9,7 @@ Put it in `./weights`.
 https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
 
 ```bash
-python3 infernece.py --weights weights/model_best.pth
+python3 inference.py --weights weights/model_best.pth
 ```
 
 ## Prepare your own PPG data
