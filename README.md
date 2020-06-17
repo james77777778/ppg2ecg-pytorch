@@ -36,6 +36,10 @@ data/
     └── uqvitalsignsdata-train
 ```
 
+The main dataset we used in this paper can be found at
+
+[The University of Queensland Vital Signs Dataset](https://outbox.eait.uq.edu.au/uqdliu3/uqvitalsignsdataset/index.html)
+
 ## Pretrained Model (UQVIT)
 Download the model weights and usually we put it in `./weights`.
 
