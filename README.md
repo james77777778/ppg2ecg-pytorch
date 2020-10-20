@@ -86,16 +86,12 @@ tensorboard --logdir logs
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@Article{ppg2ecg,
-author={Hong-Yu, Chiu
-and Hong-Han, Shuai
-and Paul C.-P, Chao},
-title={Reconstructing QRS Complex from PPG byTransformed Attentional Neural Networks},
-journal={},
-year={2020},
-month={},
-volume={},
-number={},
-pages={},
-}
+@ARTICLE{ppg2ecg,
+  author={H. -Y. {Chiu} and H. -H. {Shuai} and P. C. . -P. {Chao}},
+  journal={IEEE Sensors Journal}, 
+  title={Reconstructing QRS Complex From PPG by Transformed Attentional Neural Networks}, 
+  year={2020},
+  volume={20},
+  number={20},
+  pages={12374-12383},}
 ```
