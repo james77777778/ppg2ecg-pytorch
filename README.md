@@ -1,5 +1,6 @@
 # PPG2ECG
 The official implementation of the paper "Reconstructing QRS Complex from PPG by Transformed Attentional Neural Networks"
+[https://ieeexplore.ieee.org/document/9109576](https://ieeexplore.ieee.org/document/9109576)
 
 ## Results
 Graph Abstract
