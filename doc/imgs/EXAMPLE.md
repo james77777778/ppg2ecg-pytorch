@@ -6,7 +6,9 @@ The detail is in [inference.py](../../inference.py).
 Download the pretrained weights from UQVIT dataset.
 Put it in `./weights`.
 
-https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
+~~https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing~~
+
+(Sorry for the inconvience. The model weights are lost.)
 
 ```bash
 python3 inference.py --weights weights/model_best.pth --input example/PPG.npy
