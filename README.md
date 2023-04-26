@@ -15,7 +15,7 @@ Model Architecture
 ## Dataset
 Download the dataset:
 
-https://drive.google.com/file/d/15dxbpi4FH7lJbRFZwyREyX4V0VKDxXNs/view?usp=sharing
+https://drive.google.com/file/d/1UwuHRKkC0YPbDAFIYvFJlFmU6_3zgjcJ/view
 
 And follow the instruction:
 ```bash
@@ -44,7 +44,9 @@ The main dataset we used in this paper can be found at
 ## Pretrained Model (UQVIT)
 Download the model weights and usually we put it in `./weights`.
 
-https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing
+~~https://drive.google.com/file/d/10aYWNkgaGCz1zU6--kN3yaW6L_9BzkhQ/view?usp=sharing~~
+
+(Sorry for the inconvience. The model weights are lost.)
 
 ## Environment
 You can check it yourself in requirements.txt
