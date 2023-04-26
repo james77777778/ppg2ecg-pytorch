@@ -15,7 +15,8 @@ Model Architecture
 ## Dataset
 Download the dataset:
 
-https://drive.google.com/file/d/1UwuHRKkC0YPbDAFIYvFJlFmU6_3zgjcJ/view
+- https://drive.google.com/file/d/1UwuHRKkC0YPbDAFIYvFJlFmU6_3zgjcJ/view
+- https://github.com/james77777778/ppg2ecg-pytorch/releases/download/dataset/dataset.zip
 
 And follow the instruction:
 ```bash
